@@ -5,7 +5,4 @@ description: State-of-the-Art Financial Embeddings
 plugins:
   - jekyll-feed
 
-collections:
-  posts:
-    output: true
-    permalink: /blog/:title/
+permalink: /blog/:title/
