@@ -2,10 +2,4 @@ theme: minima
 title: AbaciNLP
 description: State-of-the-Art Financial Embeddings
 style: /assets/css/custom.css
-
-plugins:
-  - jekyll-feed
-
-feed: false
-
 permalink: /blog/:title/
