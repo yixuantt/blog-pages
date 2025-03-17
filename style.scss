@@ -48,7 +48,7 @@ h1 {
   font-size: 60px;
   margin: 60px 0;
   a {
-    color: $black;
+    color: $darkBlue;
     &:hover {
       color: $darkerGray;
     }
@@ -172,7 +172,7 @@ p {
 }
 
 a {
-  color: $black;
+  color: $darkBlue;
   text-decoration: none;
 	cursor: pointer;
   &:hover, &:active {
@@ -228,11 +228,11 @@ img {
 
 // Specify the color of the selection
 ::-moz-selection {
-  color: $black;
+  color: $darkBlue;
   background: $lightGray;
 }
 ::selection {
-  color: $black;
+  color: $darkBlue;
   background: $lightGray;
 }
 
@@ -371,7 +371,7 @@ article {
     color: $medGray;
     display: block;
       &:hover {
-        color: $black;
+        color: $darkBlue;
       }
   }
   .large-link {
