@@ -1,9 +1,8 @@
 title: AbaciNLP
 description: State-of-the-Art Financial Embeddings
-style: /assets/css/custom.css
 
 google_analytics: UA-51931-6
-baseurl: "/jekyll-grid"
+baseurl: "/blog-pages"
 
 #
 # !! You don't need to change any of the configuration flags below !!
