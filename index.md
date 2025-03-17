@@ -2,8 +2,6 @@
 layout: home
 ---
 
-# Welcome to AbaciNLP
-
 {{ site.description }}
 
 ## Latest Posts
