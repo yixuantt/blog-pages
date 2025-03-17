@@ -55,6 +55,23 @@ h1 {
   }
 }
 
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pagination a, .pagination span {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #333;
+}
+
+.pagination a:hover {
+  background-color: #ddd;
+}
+
 .post h1 {
   font-size: 60px;
   letter-spacing: -.03em;
