@@ -34,6 +34,19 @@
 
     <div id="main" role="main" class="container">
       {{ content }}
+
+      <div class="navigation">
+        <a href="{{ site.baseurl }}/" class="button">Return to Blog Home</a>
+        <div class="post-navigation">
+        {% if page.previous.url %}
+        <a href="{{ page.previous.url }}" class="prev">Previous article</a>
+        {% endif %}
+        {% if page.next.url %}
+        <a href="{{ page.next.url }}" class="next">Next article</a>
+        {% endif %}
+        </div>
+        </div>
+
     </div>
 
     </div><!-- /content-wrapper -->

@@ -61,6 +61,27 @@ h1 {
   line-height: 1.1;
 }
 
+.navigation {
+  margin-top: 20px;
+}
+.button {
+  background-color: #e7eff8;
+  color: rgb(69, 69, 69);
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.post-navigation {
+  display: flex;
+  justify-content: space-between;
+}
+.prev, .next {
+  color: #829bb6;
+  text-decoration: none;
+}
+
 #home .post {
   width: 220px;
   float: left;
